@@ -1,0 +1,6 @@
+
+­I´ºÃC¦â¡G#FCF4E1
+
+
+
+sudo cp -R ~/Workspaces/website/carto2016/* /var/www/html/carto2016/

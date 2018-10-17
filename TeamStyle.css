@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+#sidebar.affix {padding:0px 0px; border: none; background: #FCF4E1;}
+.feather {text-decoration:none;}
+.feather_img {text-decoration:none;}
+.list-content {/*display:none;*/ color: #DBD4D3; font-size:1.15em;text-decoration:none;}
+/*#memberPhoto {width: 50%;}*/
+.Prize {width:50px; height:50px}
+
+h3 {
+   width: 100%;
+   text-align: center;
+   border-top: 1px solid #757780;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+h3 span {
+    background:#FCF4E1;
+    padding:0 10px;
+}
+
+/*#feather1 {
+  filter: drop-shadow(6px 6px gray);
+  -webkit-filter: drop-shadow(6px 6px gray);
+}*/
+/*#right-side {border-style:solid;border-left-color:#F8F8F8;
+  border-top-color:#FFFFFF;border-bottom-color:#FFFFFF;
+  border-right-color:#FFFFFF;}*/
+
+@media (max-width: 1000px){
+  #right-side {border-left-color:#FFFFFF;}
+  #sidebar.affix {display:none;}
+}
+/*
+@media (min-width: 768px) {
+  .bs-sidebar.affix {
+    /*width: 150px;
+    top: 50px;
+    border-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bs-sidebar.affix {
+    /*width: 200px;
+
+    top: 80px;
+    border-bottom: 80px;
+  }
+}
+*/
+@media (min-width: 1000px) {
+  #sidebar.affix {
+    width: 80px;
+    border-top: 70px;
+    border-bottom: 70px;
+  }
+  .feather_img{
+    width:20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sidebar.affix {
+    width: 90px;
+    border-top: 70px;
+    border-bottom: 70px;
+  }
+  .feather_img{
+    width:25%;
+    float: left;
+  }
+}
